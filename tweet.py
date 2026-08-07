@@ -1,8 +1,6 @@
 import re
 from typing import Any, Dict, List, Optional
 
-
-
 import requests
 
 import config
