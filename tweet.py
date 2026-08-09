@@ -2,7 +2,7 @@ import re
 from typing import Any, Dict, List, Optional
 
 import requests
-
+import config
 
 URL_RE = re.compile(
     r"https?://(?:www\.)?(?:twitter\.com|x\.com|fxtwitter\.com|vxtwitter\.com|nitter\.[^/]+)/"
