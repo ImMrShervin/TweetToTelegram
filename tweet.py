@@ -11,8 +11,6 @@ URL_RE = re.compile(
     re.I,
 )
 
-
-
 class TweetError(Exception):
     pass
 
